@@ -1,3 +1,11 @@
+/*Created by Ryan Norrbom 
+ * Created On: 06/01/2024
+ * Created for: CSD420
+ * 
+ * Main Class to call Java files for each module in the Advanced Java Programming Class at Bellevue
+ * 
+ */
+
 import java.util.Scanner;
 
 public class Main {

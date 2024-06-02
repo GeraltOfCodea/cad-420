@@ -1,3 +1,11 @@
+/*Created by Ryan Norrbom 
+ * Created On: 06/01/2024
+ * Created for: CSD420
+ * ##Assignment: 1.2
+ * 
+ * Java class to writes integers into  a .dat file. 
+ * 
+ */
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;

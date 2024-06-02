@@ -1,3 +1,11 @@
+/*Created by Ryan Norrbom 
+ * Created On: 06/01/2024
+ * Created for: CSD420
+ * ##Assignment: 1.2
+ * 
+ * Java class to read the files that are created in the Module 1 Write class. Reads a .dat file and displays what is in it. 
+ * 
+ */
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
