@@ -15,13 +15,20 @@ public class Main {
 
         while (!exit) {
             System.out.println("Select an option:");
-            System.out.println("1. Write data to file");
-            System.out.println("2. Read data from file");
-            System.out.println("3. Exit");
+            System.out.println("0. Exit");
+            System.out.println("1. Module 1: Write data to file");
+            System.out.println("2. Module 1: Read data from file");
+            System.out.println("3. Module 2: Recursion");
+            System.out.println("4. Module 3: Array Lists");
+
+            
 
             int choice = scanner.nextInt();
 
             switch (choice) {
+                case 0:
+                    exit = true;
+                    break;
                 case 1:
                     NorrbomRyan_Module1_Write.writeData();
                     break;
@@ -29,7 +36,10 @@ public class Main {
                     NorrbomRyan_Module1_Read.readData();
                     break;
                 case 3:
-                    exit = true;
+                    NorrbomRyan_Module2.main(args);
+                    break;
+                case 4:
+                    NorrbomRyan_Module3.main(args);
                     break;
                 default:
                     System.out.println("Invalid option. Please try again.");
