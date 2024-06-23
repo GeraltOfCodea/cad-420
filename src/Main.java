@@ -20,6 +20,8 @@ public class Main {
             System.out.println("2. Module 1: Read data from file");
             System.out.println("3. Module 2: Recursion");
             System.out.println("4. Module 3: Array Lists");
+            System.out.println("5. Module 4");
+            System.out.println("6. Module 5");
 
             
 
@@ -40,6 +42,12 @@ public class Main {
                     break;
                 case 4:
                     NorrbomRyan_Module3.main(args);
+                    break;
+                case 5:
+                    NorrbomRyan_Module4.main(args);
+                    break;
+                case 6:
+                    NorrbomRyan_Module5.main(args);
                     break;
                 default:
                     System.out.println("Invalid option. Please try again.");
