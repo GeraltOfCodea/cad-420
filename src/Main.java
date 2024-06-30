@@ -22,6 +22,8 @@ public class Main {
             System.out.println("4. Module 3: Array Lists");
             System.out.println("5. Module 4");
             System.out.println("6. Module 5");
+            System.out.println("7. Module 6");
+            System.out.println("8. Module 7");
 
             
 
@@ -48,6 +50,12 @@ public class Main {
                     break;
                 case 6:
                     NorrbomRyan_Module5.main(args);
+                    break;
+                case 7:
+                    NorrbomRyan_Module6.main(args);
+                    break;
+                case 8:
+                    NorrbomRyan_Module7.main(args);
                     break;
                 default:
                     System.out.println("Invalid option. Please try again.");

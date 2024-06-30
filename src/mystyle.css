@@ -1,0 +1,28 @@
+/* mystyle.css */
+.plaincircle {
+    -fx-fill: white;
+    -fx-stroke: black;
+}
+
+.border{
+    -fx-fill: transparent;
+    -fx-stroke: black; /* Black border */
+    -fx-stroke-width: 5; /* Would not render with border width and color*/
+    -fx-arc-width: 10; 
+    -fx-arc-height: 10; 
+   }
+
+.circleborder {
+    -fx-stroke-width: 5;
+    -fx-stroke-dash-array: 12 2 4 2;
+}
+
+#redcircle {
+    -fx-fill: red;
+    -fx-stroke: red;
+}
+
+#greencircle {
+    -fx-fill: green;
+    -fx-stroke: green;
+}
