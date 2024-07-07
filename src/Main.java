@@ -24,6 +24,7 @@ public class Main {
             System.out.println("6. Module 5");
             System.out.println("7. Module 6");
             System.out.println("8. Module 7");
+            System.out.println("9. Module 8: RyanThreeThreads");
 
             
 
@@ -56,6 +57,9 @@ public class Main {
                     break;
                 case 8:
                     NorrbomRyan_Module7.main(args);
+                    break;
+                case 9:
+                    RyanThreeThreads.main(args);
                     break;
                 default:
                     System.out.println("Invalid option. Please try again.");
