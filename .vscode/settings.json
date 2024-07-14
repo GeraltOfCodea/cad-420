@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/*.jar"
+    ],
+    "editor.tabSize": 4,  // Sets tab size to 4 spaces for all files
+    "files.autoSave": "onFocusChange"  // Auto-saves files when focus changes
+}
